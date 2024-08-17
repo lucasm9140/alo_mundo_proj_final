@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra-se</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'stylecadastro.css')}}">
+</head>
+<body>
+    <form action="/novoaluno" method="post"> 
+        
+        <label>RA:</label> 
+        <input required type="text" placeholder="informe o número do RA" maxlength="8" oninput="this.value = this.value.replace(/[^0-9]/g, '');" id="ra" name="ra">
+        <label>Nome: </label> 
+        <input type="text" required placeholder="Nome" id="nome" name="nome"/> 
+        <label>Renda Familiar</label>
+        <input type="number" placeholder="Renda familiar mensal" id="rendafamiliar" name="rendafamiliar"/>
+        <label>Tempo Estudo:</label> 
+        <input type="number" placeholder="Tempo de estudo mensal" id="tempoestudo" name="tempoestudo"/> 
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+</body>
+</html>
