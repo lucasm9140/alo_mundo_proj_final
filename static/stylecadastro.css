@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: Apple Chancery, cursive;
+=======
+    font-family: Arial, sans-serif;
+>>>>>>> 59c248d (projeto final atualizado 19/08)
 }
 
 /* Centraliza o conteúdo na página */
@@ -21,7 +25,11 @@ body {
 
 /* Estilo do formulário */
 form {
+<<<<<<< HEAD
     background-color: #73e0d2;
+=======
+    background-color: #ffffff;
+>>>>>>> 59c248d (projeto final atualizado 19/08)
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
